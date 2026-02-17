@@ -27,7 +27,7 @@ jobs:
         run: |
           newman run "Restfull Booker Collection.json" \
           -e "Restfull Booker Env.json" \
-          -d data.csv \ 
+          -d data.csv \
           -r cli,htmlextra \
           --reporter-htmlextra-export report.html
 
